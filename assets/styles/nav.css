@@ -1,0 +1,50 @@
+header.navbar-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding-block: 1rem;
+    z-index: 999;
+  }
+  
+  header.navbar-container .logo img {
+    width: 150px;
+    display: flex;
+  }
+  
+  header.navbar-container .nav-list ul {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header.navbar-container .nav-list li {
+    list-style-type: none;
+  }
+  
+  header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  header.navbar-container .nav-list li:hover a {
+    background-color: #007bff;
+    color: white;
+    font-family: "Alfa Slab One", cursive;
+  }

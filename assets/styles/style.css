@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-block: 1rem;
+  color: #007bff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-block: 1rem;
+  color: #007bff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+button {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+button:hover {
+  border: 3px solid #007bff;
+  color: #007bff;
+  background-color: transparent;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem 4rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+main .content .content-description {
+  flex: 1 1;
+}
+
+main .content .content-description .title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-block: 1rem;
+  color: #007bff;
+  font-family: "Alfa Slab One", cursive;
+}
+
+main .content .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+main .content .content-description button {
+  padding: 0.8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+main .content .content-description button:hover {
+  border: 3px solid #007bff;
+  color: #007bff;
+  background-color: transparent;
+}
+
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+main .content .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 500px;
+}
+
+aside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 5;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #c1f4ff;
+  color: #000000;
+  padding: 20px;
+  border: 1px solid #007bff;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.data h4 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.data li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #000000;
+}
+.card {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bootcamp {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 1rem 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.visimisi h3 p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 1rem 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#profile {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 1rem 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  border-radius: 20px;
+  background-color: #007bff;
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 255, 234, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+/* untuk device resolusi 768 */
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+
+  main {
+    padding: 1rem 3rem;
+  }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  main .content .content-description .title {
+    font-size: 3rem;
+  }
+
+  main .content .content-description p {
+    font-size: 1rem;
+  }
+
+  main .content .content-image {
+    order: -1;
+  }
+}

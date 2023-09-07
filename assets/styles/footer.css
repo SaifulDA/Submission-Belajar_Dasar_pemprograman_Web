@@ -1,0 +1,16 @@
+footer {
+    margin-top: auto;
+    padding: 20px;
+    color: #fff;
+    background-color: #00a2c6;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sosmed a {
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    list-style: none;
+  }
